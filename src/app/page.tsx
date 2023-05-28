@@ -11,23 +11,23 @@ export default function Home() {
       <div className="flex flex-col md:flex-row gap-2 mt-6">
         <div>
           <p className="pt-6">
-            Specializing in
+            Specializing in  {" "}
             <a
-              className="underline text-purple-500 px-1"
+              className="underline text-purple-500 "
               href="https://nextjs.org/"
             >
               Next.js
             </a>
-            ,
+            , {" "}
             <a
-              className="underline text-purple-500 px-1"
+              className="underline text-purple-500 "
               href="https://qwik.builder.io/"
             >
               Qwik
             </a>
-            , and
+            , and {" "}
             <a
-              className="underline text-purple-500 px-1"
+              className="underline text-purple-500 "
               href="https://mitosis.builder.io/"
             >
               Mitosis
@@ -40,14 +40,14 @@ export default function Home() {
             In addition to my expertise as a front-end developer, I am also
             proficient in{" "}
             <a
-              className="underline text-purple-500 px-1"
+              className="underline text-purple-500 "
               href="https://play.google.com/store/apps/dev?id=5003532232432131743"
             >
               mobile development
             </a>{" "}
             using{" "}
             <a
-              className="underline text-purple-500 px-1"
+              className="underline text-purple-500 "
               href="https://flutter.dev/"
             >
               Flutter
