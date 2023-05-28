@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function About() {
   return (
     <main>
-     
       <div className="text-3xl font-extrabold pb-6">Work Experience</div>
       <div className="flex flex-col gap-y-4">
         <p>
