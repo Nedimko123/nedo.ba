@@ -61,7 +61,7 @@ export default function Home() {
           alt="Nedim Malicbegovic"
           width={300}
           height={1}
-          className="object-contain mb-6 self-center"
+          className="object-contain mb-6 self-center rounded-md"
         />
       </div>
       <p className="mt-2">
