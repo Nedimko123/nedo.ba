@@ -13,7 +13,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="flex flex-col items-center gap-3 mb-8 text-2xl text-purple-600">
+    <div className="flex flex-col items-center gap-3 mb-8 text-2xl text-secondary/90">
       <p className="font-extrabold text-4xl text-slate-100">
         Nedim Malicbegovic
       </p>
@@ -24,8 +24,8 @@ export default function Header() {
             <Link
               className={
                 isActive
-                  ? "text-purple-700 underline font-extrabold hover:text-purple-600 transition duration-300 ease-in"
-                  : "text-slate-100 transition duration-300 ease-in hover:text-purple-200"
+                  ? "text-secondary underline font-extrabold hover:text-secondary/90"
+                  : "text-slate-100 hover:text-purple-200"
               }
               href={link.href}
               key={link.name}

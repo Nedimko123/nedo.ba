@@ -23,19 +23,19 @@ export default function Home() {
       <div>
         <p className="pt-6">
           Specializing in{" "}
-          <a className="underline text-purple-500 " href="https://nextjs.org/">
+          <a className="underline text-primary " href="https://nextjs.org/">
             Next.js
           </a>
           ,{" "}
           <a
-            className="underline text-purple-500 "
+            className="underline text-primary "
             href="https://qwik.builder.io/"
           >
             Qwik
           </a>
           , and{" "}
           <a
-            className="underline text-purple-500 "
+            className="underline text-primary "
             href="https://mitosis.builder.io/"
           >
             Mitosis
@@ -48,13 +48,13 @@ export default function Home() {
           In addition to my expertise as a front-end developer, I am also
           proficient in{" "}
           <a
-            className="underline text-purple-500 "
+            className="underline text-primary "
             href="https://play.google.com/store/apps/dev?id=5003532232432131743"
           >
             mobile development
           </a>{" "}
           using{" "}
-          <a className="underline text-purple-500 " href="https://flutter.dev/">
+          <a className="underline text-primary " href="https://flutter.dev/">
             Flutter
           </a>
           . I enjoy building cross-platform applications that deliver a seamless
